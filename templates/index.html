@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>API Proxy</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="text-center my-5">API Proxy</h1>
+            <p class="text-center">Welcome to the API proxy service. Use this service to securely access any API.</p>
+            <div class="row justify-content-center">
+                <form method="GET" action="/proxy" class="col-md-6">
+                    <div class="form-group">
+                        <label for="url">Enter the URL of the API you want to proxy:</label>
+                        <input type="text" id="url" name="url" class="form-control">
+                    </div>
+                    <div class="form-group text-center">
+                        <input type="submit" value="Submit" class="btn btn-primary">
+                    </div>
+                </form>
+            </div>
+            <p class="text-center my-5">Examples:</p>
+            <ul class="list-group list-group-flush text-center">
+                <li class="list-group-item">https://jsonplaceholder.typicode.com/posts</li>
+                <li class="list-group-item">https://api.openweathermap.org/data/2.5/weather?q=London&appid=YOUR_API_KEY</li>
+            </ul>
+        </div>
+    </body>
+</html>
