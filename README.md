@@ -30,15 +30,21 @@ Also, for security reasons, it is not recommended to allow any origin in product
 ## Installation
 
 1. Clone this repository
+```bash
 git clone https://github.com/YOUR_USERNAME/API_proxy.git
-
+```
 
 2. Install the required dependencies
+```bash
 pip install -r requirements.txt
+```
 
 
 3. Run the script
+```bash
 python proxy.py
+```
+
 
 The proxy server will be running on `http://localhost:5000/`
 
