@@ -1,6 +1,6 @@
 # API Proxy
 
-** Currently not working, making routing requests properly but not adding CORS headers **
+** Currently not working, routing requests properly but not adding CORS headers **
 
 This API proxy allows you to securely access any API using Flask-Cors for handling CORS headers. Intended to be used during front end development to bypass CORS. Very basic implementation meant to be used by my PDX Code Guild classmates.
 
