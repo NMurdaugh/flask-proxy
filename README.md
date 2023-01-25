@@ -60,6 +60,3 @@ In case you have any issues or questions, feel free to open an issue on the repo
 Aware of the following issues:
 
 - CORS headers not being added to end API response
-
-
-Please note that the above script and instructions are for demonstration purposes only and may not be suitable for production use. It's important to secure your API proxy and make sure to follow best practices for security, performance, and error handling.
