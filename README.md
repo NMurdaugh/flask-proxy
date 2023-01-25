@@ -24,7 +24,7 @@ You can also use this proxy by visiting the landing page of the service and ente
 
 ## Security
 
-Please note that this proxy server is for demonstration purpose only and it is not suitable for production use. You may want to add more robust error handling, security features and caching.
+Please note that this proxy server is for development purpose only and it is not suitable for production use. You may want to add more robust error handling, security features and caching.
 Also, for security reasons, it is not recommended to allow any origin in production environments, you should set the headers to specific values and use security measures like authentication and authorization.
 
 ## Installation
